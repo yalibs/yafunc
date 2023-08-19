@@ -7,7 +7,7 @@ package dk.yalibs.yafunc;
  * <pre>
  * {@code
  * Runnable1<String> r = (String argument) -> System.out.println(argument);
- * r.run("Hello World")
+ * r.run("Hello World");
  * }
  * </pre>
  *
