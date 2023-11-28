@@ -23,7 +23,7 @@ import dk.yalibs.yafunc.IRunnable1; // Import it
 
 public class Main {
     public static void main(String[] argv) throws Exception {
-        Runnable1<String> r = (String argument) -> System.out.println(argument);
+        IRunnable1<String> r = (String argument) -> System.out.println(argument);
         r.run("Hello World");
     }
 }
